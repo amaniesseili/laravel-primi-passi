@@ -21,3 +21,23 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+
+Route::get('/rottaHomepage', function () {
+    $data = [
+        "routeClass" => "Route::get('/', function () {
+            return view('home');
+        });",
+
+        "messaggioDinamico" => "Route::get('/', function () {
+            dollaro+data = [
+                'mess' => 'Benvenuti in Laravel Primi Passi'
+            ];
+
+            return view('home', dollaro+data);
+        });",
+
+
+    ];
+    return view('rottaHomepage', $data);
+});
