@@ -21,6 +21,7 @@
 <body>
   <div class="container">
     <h1>hello world</h1>
+    <h2>{{$message}}</h2>
 
   </div>
 
