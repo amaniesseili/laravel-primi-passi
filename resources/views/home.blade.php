@@ -19,9 +19,41 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1>hello world</h1>
-    <h2>{{$message}}</h2>
+  <header>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+      <a class="navbar-brand text-danger text-bold" href="#"><img src="public/laravel-logo.png" alt="">LARAVEL</a>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+        </div>
+      </div>
+    </div>
+    </nav>
+    
+
+  </header>
+  <div class="container bg-black vh-100 pt-5">
+    <div class="row mb-5">
+      <div class="col-3"></div>
+      <div class="col-6 text-center bg-danger mt-5 p-5 text-white ">
+        <h1 class="mb-5">Hello World</h1>
+        <h2 class="mb-4">{{$message}}</h2>
+        <p>{{$definizione}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6 text-center bg-danger mt-5 p-5 text-white ">
+        <h3 class="mb-5">Creazione della Homepage</h3>
+        <p class="mb-4">{{$creazione}}</p>
+      </div>
+    </div>
+
 
   </div>
 
