@@ -41,3 +41,16 @@ Route::get('/rottaHomepage', function () {
     ];
     return view('rottaHomepage', $data);
 });
+
+
+
+Route::get('/creazionePagine', function () {
+    $data = [
+        "definizioneRotta" => "Route::get('/nomePagine', function () {
+
+            return view('nomePagine');
+        });"
+
+    ];
+    return view('creazionePagine', $data);
+});
